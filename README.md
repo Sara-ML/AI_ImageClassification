@@ -18,7 +18,7 @@ Inception V3 layer has two part:
   -The dataset needs to be created in the root of the project folder. This folder will contain the image data sets for all the subjects, for whom the classification is to be performed.
   - The structure of the data should be as follows, 
 
-![alt text](https://github.com/Sara-ML/AI_ImageClassification/img.png)
+![alt text](AI_ImageClassification/img.PNG)
 The folder name act as the label of the images, which is trained along with the images.
 
 The classification is done with respect to the real images. and therefore, the probabilities represent the real images
