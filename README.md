@@ -7,16 +7,16 @@
 ㅇModel : Inception model 
 Transfer learning utilizes a pre-trained neural network to gain knowledge of the layers
 Inception V3 layer has two part:
-•	Feature extraction part with a Convolution neural network.
-•	Classification part with fully-connected and softmax layers.
+  •	Feature extraction part with a Convolution neural network.
+  •	Classification part with fully-connected and softmax layers.
 ㅇHow it works:
-- In order to identify multiple faces in the photo, the distortion method is used that crops the faces and get rid of any angle differences.
-- The bottleneck features are extracted with the labelled real and fake images.
-- Both the images are trained through the Convolution neural network.
-- The output layer consists of the softmax that holds the probability value for classification.
+  - In order to identify multiple faces in the photo, the distortion method is used that crops the faces and get rid of any angle differences.
+  - The bottleneck features are extracted with the labelled real and fake images.
+  - Both the images are trained through the Convolution neural network.
+  - The output layer consists of the softmax that holds the probability value for classification.
 ㅇHow it is done:
--The dataset needs to be created in the root of the project folder. This folder will contain the image data sets for all the subjects, for whom the classification is to be performed.
-- The structure of the data should be as follows, 
+  -The dataset needs to be created in the root of the project folder. This folder will contain the image data sets for all the subjects, for whom the classification is to be performed.
+  - The structure of the data should be as follows, 
 
 ![alt text](https://github.com/Sara-ML/AI_ImageClassification/img.png)
 The folder name act as the label of the images, which is trained along with the images.
